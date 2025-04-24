@@ -12,7 +12,7 @@ These vocabularies are online at:
 
 ## Catalogue Manifest
 
-The resources in this repository that constitute the catalogue of vocabularies online at <defs-dev.opengis.net/prez-hosted/catalogs/tc211:> are: 
+The resources in this repository that constitute the catalogue of vocabularies online at <https://defs-dev.opengis.net/prez-hosted/catalogs/tc211:> are: 
 
 | Resource                                                       | Role                                                                                                                | Description                                                                          |
 |----------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
