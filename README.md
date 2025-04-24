@@ -6,7 +6,7 @@ The vocabularies are [Semantic Web](https://en.wikipedia.org/wiki/Semantic_Web) 
 
 These vocabularies are online at:
 
-* <defs-dev.opengis.net/prez-hosted/catalogs/tc211:>
+* *<https://defs-dev.opengis.net/prez-hosted/catalogs/tc211:>*
 
 
 
