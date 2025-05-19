@@ -11,7 +11,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:status status:stable ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Missing"@en ;
-    skos:historyNote "Presented in the original standard's codelist"@en ;
+    skos:historyNote "Presented in the original standard's code set"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "aggregate"@en ;
     skos:topConceptOf cs: ;
@@ -22,7 +22,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:status status:stable ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Missing"@en ;
-    skos:historyNote "Presented in the original standard's codelist"@en ;
+    skos:historyNote "Presented in the original standard's code set"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "application"@en ;
     skos:topConceptOf cs: ;
@@ -33,7 +33,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:status status:stable ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Missing"@en ;
-    skos:historyNote "Presented in the original standard's codelist"@en ;
+    skos:historyNote "Presented in the original standard's code set"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "attribute"@en ;
     skos:topConceptOf cs: ;
@@ -44,7 +44,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:status status:stable ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Missing"@en ;
-    skos:historyNote "Presented in the original standard's codelist"@en ;
+    skos:historyNote "Presented in the original standard's code set"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "attribute type"@en ;
     skos:topConceptOf cs: ;
@@ -55,7 +55,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:status status:stable ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Missing"@en ;
-    skos:historyNote "Presented in the original standard's codelist"@en ;
+    skos:historyNote "Presented in the original standard's code set"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "collection"@en ;
     skos:topConceptOf cs: ;
@@ -66,7 +66,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:status status:stable ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Missing"@en ;
-    skos:historyNote "Presented in the original standard's codelist"@en ;
+    skos:historyNote "Presented in the original standard's code set"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "collection hardware"@en ;
     skos:topConceptOf cs: ;
@@ -77,7 +77,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:status status:stable ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Missing"@en ;
-    skos:historyNote "Presented in the original standard's codelist"@en ;
+    skos:historyNote "Presented in the original standard's code set"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "collection session"@en ;
     skos:topConceptOf cs: ;
@@ -88,7 +88,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:status status:stable ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Missing"@en ;
-    skos:historyNote "Presented in the original standard's codelist"@en ;
+    skos:historyNote "Presented in the original standard's code set"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "coverage"@en ;
     skos:topConceptOf cs: ;
@@ -99,7 +99,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:status status:stable ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Missing"@en ;
-    skos:historyNote "Presented in the original standard's codelist"@en ;
+    skos:historyNote "Presented in the original standard's code set"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "dataset"@en ;
     skos:topConceptOf cs: ;
@@ -110,7 +110,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:status status:stable ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Missing"@en ;
-    skos:historyNote "Presented in the original standard's codelist"@en ;
+    skos:historyNote "Presented in the original standard's code set"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "dimension group"@en ;
     skos:topConceptOf cs: ;
@@ -323,7 +323,7 @@ cs:
         :service ,
         :software ,
         :tile ;
-    skos:historyNote "Derived from TC211-produced RDF versions of the standard's UML"@en ;
+    skos:historyNote "Derived from TC-211-produced RDF versions of the standard's UML"@en ;
     skos:prefLabel "MD Scope Code"@en ;
     schema:citation "http://standards.iso.org/iso/19115/-1/ed-1/en/"^^xsd:anyURI ;
     schema:creator <https://committee.iso.org/home/tc211> ;
@@ -331,5 +331,5 @@ cs:
     schema:dateModified "2000-01-01"^^xsd:date ;
     schema:dateIssued "2000-01-01"^^xsd:date ;
     schema:publisher <https://committee.iso.org/home/tc211> ;
-    schema:isPartOf <https://def.isotc211.org/codelists> ;
+    schema:isPartOf <https://def.isotc211.org/codesets> ;
 .

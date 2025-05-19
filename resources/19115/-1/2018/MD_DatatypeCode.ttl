@@ -11,7 +11,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:status status:stable ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Missing"@en ;
-    skos:historyNote "Presented in the original standard's codelist"@en ;
+    skos:historyNote "Presented in the original standard's code set"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "abstract class"@en ;
     skos:topConceptOf cs: ;
@@ -22,7 +22,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:status status:stable ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Missing"@en ;
-    skos:historyNote "Presented in the original standard's codelist"@en ;
+    skos:historyNote "Presented in the original standard's code set"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "aggregate class"@en ;
     skos:topConceptOf cs: ;
@@ -33,7 +33,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:status status:stable ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Missing"@en ;
-    skos:historyNote "Presented in the original standard's codelist"@en ;
+    skos:historyNote "Presented in the original standard's code set"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "association"@en ;
     skos:topConceptOf cs: ;
@@ -44,7 +44,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:status status:stable ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Missing"@en ;
-    skos:historyNote "Presented in the original standard's codelist"@en ;
+    skos:historyNote "Presented in the original standard's code set"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "character string"@en ;
     skos:topConceptOf cs: ;
@@ -55,7 +55,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:status status:stable ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Missing"@en ;
-    skos:historyNote "Presented in the original standard's codelist"@en ;
+    skos:historyNote "Presented in the original standard's code set"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "class"@en ;
     skos:topConceptOf cs: ;
@@ -66,7 +66,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:status status:stable ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Missing"@en ;
-    skos:historyNote "Presented in the original standard's codelist"@en ;
+    skos:historyNote "Presented in the original standard's code set"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "codelist"@en ;
     skos:topConceptOf cs: ;
@@ -77,7 +77,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:status status:stable ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Missing"@en ;
-    skos:historyNote "Presented in the original standard's codelist"@en ;
+    skos:historyNote "Presented in the original standard's code set"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "codelist element"@en ;
     skos:topConceptOf cs: ;
@@ -88,7 +88,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:status status:stable ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Missing"@en ;
-    skos:historyNote "Presented in the original standard's codelist"@en ;
+    skos:historyNote "Presented in the original standard's code set"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "datatype class"@en ;
     skos:topConceptOf cs: ;
@@ -99,7 +99,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:status status:stable ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Missing"@en ;
-    skos:historyNote "Presented in the original standard's codelist"@en ;
+    skos:historyNote "Presented in the original standard's code set"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "enumeration"@en ;
     skos:topConceptOf cs: ;
@@ -110,7 +110,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:status status:stable ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Missing"@en ;
-    skos:historyNote "Presented in the original standard's codelist"@en ;
+    skos:historyNote "Presented in the original standard's code set"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "integer"@en ;
     skos:topConceptOf cs: ;
@@ -121,7 +121,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:status status:stable ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Missing"@en ;
-    skos:historyNote "Presented in the original standard's codelist"@en ;
+    skos:historyNote "Presented in the original standard's code set"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "interface class"@en ;
     skos:topConceptOf cs: ;
@@ -132,7 +132,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:status status:stable ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Missing"@en ;
-    skos:historyNote "Presented in the original standard's codelist"@en ;
+    skos:historyNote "Presented in the original standard's code set"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "meta class"@en ;
     skos:topConceptOf cs: ;
@@ -191,7 +191,7 @@ cs:
         :specifiedClass ,
         :typeClass ,
         :unionClass ;
-    skos:historyNote "Derived from TC211-produced RDF versions of the standard's UML"@en ;
+    skos:historyNote "Derived from TC-211-produced RDF versions of the standard's UML"@en ;
     skos:prefLabel "MD Datatype Code"@en ;
     schema:citation "http://standards.iso.org/iso/19115/-1/ed-1/en/"^^xsd:anyURI ;
     schema:creator <https://committee.iso.org/home/tc211> ;
@@ -199,5 +199,5 @@ cs:
     schema:dateModified "2000-01-01"^^xsd:date ;
     schema:dateIssued "2000-01-01"^^xsd:date ;
     schema:publisher <https://committee.iso.org/home/tc211> ;
-    schema:isPartOf <https://def.isotc211.org/codelists> ;
+    schema:isPartOf <https://def.isotc211.org/codesets> ;
 .

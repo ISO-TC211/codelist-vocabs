@@ -114,7 +114,7 @@ cs:
     skos:hasTopConcept
         :invalid ,
         :valid ;
-    skos:historyNote "Derived from TC211-produced RDF versions of the standard's UML"@en ;
+    skos:historyNote "Derived from TC-211-produced RDF versions of the standard's UML"@en ;
     skos:prefLabel "Register Item Status Codes"@en ;
     schema:citation "http://standards.iso.org/iso/19135/-1/ed-1/en/"^^xsd:anyURI ;
     schema:creator <https://committee.iso.org/home/tc211> ;
@@ -122,5 +122,5 @@ cs:
     schema:dateModified "2024-10-02"^^xsd:date ;
     schema:dateIssued "2000-01-01"^^xsd:date ;
     schema:publisher <https://committee.iso.org/home/tc211> ;
-    schema:isPartOf <https://def.isotc211.org/codelists> ;
+    schema:isPartOf <https://def.isotc211.org/codesets> ;
 .

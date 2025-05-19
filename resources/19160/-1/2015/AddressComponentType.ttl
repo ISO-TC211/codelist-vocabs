@@ -116,5 +116,5 @@ cs:
     schema:dateModified "2000-01-01"^^xsd:date ;
     schema:dateIssued "2000-01-01"^^xsd:date ;
     schema:publisher <https://committee.iso.org/home/tc211> ;
-    schema:isPartOf <https://def.isotc211.org/codelists> ;
+    schema:isPartOf <https://def.isotc211.org/codesets> ;
 .

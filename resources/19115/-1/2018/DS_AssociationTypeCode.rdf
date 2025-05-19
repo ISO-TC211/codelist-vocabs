@@ -30,7 +30,7 @@
     <skos:hasTopConcept rdf:resource="http://def.isotc211.org/19115/-1/2014/IdentificationInformation/code/DS_AssociationTypeCode/revisionOf"/>
     <skos:hasTopConcept rdf:resource="http://def.isotc211.org/19115/-1/2014/IdentificationInformation/code/DS_AssociationTypeCode/series"/>
     <skos:hasTopConcept rdf:resource="http://def.isotc211.org/19115/-1/2014/IdentificationInformation/code/DS_AssociationTypeCode/stereoMate"/>
-    <skos:historyNote xml:lang="en">Derived from TC211-produced RDF versions of the standard's UML</skos:historyNote>
+    <skos:historyNote xml:lang="en">Derived from TC-211-produced RDF versions of the standard's UML</skos:historyNote>
     <skos:prefLabel xml:lang="en">DS Association Type Code</skos:prefLabel>
     <schema:citation rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://standards.iso.org/iso/19115/-1/ed-1/en/</schema:citation>
     <schema:creator rdf:resource="https://committee.iso.org/home/tc211"/>

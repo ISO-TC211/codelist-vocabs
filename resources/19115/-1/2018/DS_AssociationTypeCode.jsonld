@@ -179,7 +179,7 @@
       ],
       "skos:historyNote": {
         "@language": "en",
-        "@value": "Derived from TC211-produced RDF versions of the standard's UML"
+        "@value": "Derived from TC-211-produced RDF versions of the standard's UML"
       },
       "skos:prefLabel": {
         "@language": "en",

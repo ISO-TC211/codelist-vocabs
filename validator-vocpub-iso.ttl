@@ -543,6 +543,6 @@ BASE <https://w3id.org/profile/vocpub/validator/>
         sh:path sdo:isPartOf ;
         sh:minCount 1 ;
         sh:maxCount 1 ;
-        sh:value <https://def.isotc211.org/codelists> ;
+        sh:value <https://def.isotc211.org/codesets> ;
     ]
 .

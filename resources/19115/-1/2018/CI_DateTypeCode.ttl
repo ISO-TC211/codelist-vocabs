@@ -11,7 +11,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:status status:stable ;
     rdfs:isDefinedBy cs: ;
     skos:definition "date identifies when resource was adopted" ;
-    skos:historyNote "Presented in the original standard's codelist"@en ;
+    skos:historyNote "Presented in the original standard's code set"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "adopted"@en ;
     skos:topConceptOf cs: ;
@@ -22,7 +22,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:status status:stable ;
     rdfs:isDefinedBy cs: ;
     skos:definition "date identifies when the resource was brought into existence" ;
-    skos:historyNote "Presented in the original standard's codelist"@en ;
+    skos:historyNote "Presented in the original standard's code set"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "creation"@en ;
     skos:topConceptOf cs: ;
@@ -33,7 +33,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:status status:stable ;
     rdfs:isDefinedBy cs: ;
     skos:definition "date identifies when resource was deprecated" ;
-    skos:historyNote "Presented in the original standard's codelist"@en ;
+    skos:historyNote "Presented in the original standard's code set"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "deprecated"@en ;
     skos:topConceptOf cs: ;
@@ -44,7 +44,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:status status:stable ;
     rdfs:isDefinedBy cs: ;
     skos:definition "date identifies when an instance of the resource was distributed" ;
-    skos:historyNote "Presented in the original standard's codelist"@en ;
+    skos:historyNote "Presented in the original standard's code set"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "distribution"@en ;
     skos:topConceptOf cs: ;
@@ -55,7 +55,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:status status:stable ;
     rdfs:isDefinedBy cs: ;
     skos:definition "date identifies when resource expires" ;
-    skos:historyNote "Presented in the original standard's codelist"@en ;
+    skos:historyNote "Presented in the original standard's code set"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "expiry"@en ;
     skos:topConceptOf cs: ;
@@ -66,7 +66,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:status status:stable ;
     rdfs:isDefinedBy cs: ;
     skos:definition "date identifies when resource became in force" ;
-    skos:historyNote "Presented in the original standard's codelist"@en ;
+    skos:historyNote "Presented in the original standard's code set"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "in force"@en ;
     skos:topConceptOf cs: ;
@@ -77,7 +77,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:status status:stable ;
     rdfs:isDefinedBy cs: ;
     skos:definition "date identifies when resource was last reviewed" ;
-    skos:historyNote "Presented in the original standard's codelist"@en ;
+    skos:historyNote "Presented in the original standard's code set"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "last revision"@en ;
     skos:topConceptOf cs: ;
@@ -88,7 +88,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:status status:stable ;
     rdfs:isDefinedBy cs: ;
     skos:definition "date identifies when resource was last updated" ;
-    skos:historyNote "Presented in the original standard's codelist"@en ;
+    skos:historyNote "Presented in the original standard's code set"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "last update"@en ;
     skos:topConceptOf cs: ;
@@ -99,7 +99,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:status status:stable ;
     rdfs:isDefinedBy cs: ;
     skos:definition "date identifies when resource will be next updated" ;
-    skos:historyNote "Presented in the original standard's codelist"@en ;
+    skos:historyNote "Presented in the original standard's code set"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "next update"@en ;
     skos:topConceptOf cs: ;
@@ -110,7 +110,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:status status:stable ;
     rdfs:isDefinedBy cs: ;
     skos:definition "date identifies when the resource was issued" ;
-    skos:historyNote "Presented in the original standard's codelist"@en ;
+    skos:historyNote "Presented in the original standard's code set"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "publication"@en ;
     skos:topConceptOf cs: ;
@@ -121,7 +121,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:status status:stable ;
     rdfs:isDefinedBy cs: ;
     skos:definition "the date that the resource shall be released for public access" ;
-    skos:historyNote "Presented in the original standard's codelist"@en ;
+    skos:historyNote "Presented in the original standard's code set"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "released"@en ;
     skos:topConceptOf cs: ;
@@ -132,7 +132,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:status status:stable ;
     rdfs:isDefinedBy cs: ;
     skos:definition "date identifies when the resource was examined or re-examined and improved or amended" ;
-    skos:historyNote "Presented in the original standard's codelist"@en ;
+    skos:historyNote "Presented in the original standard's code set"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "revision"@en ;
     skos:topConceptOf cs: ;
@@ -143,7 +143,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:status status:stable ;
     rdfs:isDefinedBy cs: ;
     skos:definition "date identifies when resource was superseded or replaced by another resource" ;
-    skos:historyNote "Presented in the original standard's codelist"@en ;
+    skos:historyNote "Presented in the original standard's code set"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "superseded"@en ;
     skos:topConceptOf cs: ;
@@ -154,7 +154,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:status status:stable ;
     rdfs:isDefinedBy cs: ;
     skos:definition "date identifies when resource became not available or obtainable" ;
-    skos:historyNote "Presented in the original standard's codelist"@en ;
+    skos:historyNote "Presented in the original standard's code set"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "unavailable"@en ;
     skos:topConceptOf cs: ;
@@ -165,7 +165,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:status status:stable ;
     rdfs:isDefinedBy cs: ;
     skos:definition "time at which the data is considered to become valid. Note: There could be quite a delay between creation and validity begins" ;
-    skos:historyNote "Presented in the original standard's codelist"@en ;
+    skos:historyNote "Presented in the original standard's code set"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "validity begins"@en ;
     skos:topConceptOf cs: ;
@@ -176,7 +176,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:status status:stable ;
     rdfs:isDefinedBy cs: ;
     skos:definition "time at which the data is no longer considered to be valid" ;
-    skos:historyNote "Presented in the original standard's codelist"@en ;
+    skos:historyNote "Presented in the original standard's code set"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "validity expires"@en ;
     skos:topConceptOf cs: ;
@@ -203,7 +203,7 @@ cs:
         :unavailable ,
         :validityBegins ,
         :validityExpires ;
-    skos:historyNote "Derived from TC211-produced RDF versions of the standard's UML"@en ;
+    skos:historyNote "Derived from TC-211-produced RDF versions of the standard's UML"@en ;
     skos:prefLabel "CI Date Type Code"@en ;
     schema:citation "http://standards.iso.org/iso/19115/-1/ed-1/en/"^^xsd:anyURI ;
     schema:creator <https://committee.iso.org/home/tc211> ;
@@ -211,5 +211,5 @@ cs:
     schema:dateModified "2000-01-01"^^xsd:date ;
     schema:dateIssued "2000-01-01"^^xsd:date ;
     schema:publisher <https://committee.iso.org/home/tc211> ;
-    schema:isPartOf <https://def.isotc211.org/codelists> ;
+    schema:isPartOf <https://def.isotc211.org/codesets> ;
 .
