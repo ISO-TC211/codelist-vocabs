@@ -1,4 +1,4 @@
-# ISO TC-211 Codelist Vocabularies
+# ISO/TC211 Codelist Vocabularies
 
 This repository contains the source data of the [International Standards Organization](https://www.iso.org)'s [Technical Committee 211 (Geographic information/Geomatics)](https://committee.iso.org/home/tc211)'s codelist vocabularies.
 
@@ -41,11 +41,10 @@ The following persons are the contact points for GOM:
 ISO Technical Committee 211             
 <nick@kurrawong.ai> 
 
-
 **Ivana Ivánová**                     
 *GOM Convenor*                           
 ISO Technical Committee 211             
 <ivana.ivanova@curtin.edu.au> 
 
 > [!NOTE]  
-> Contact points for individual vocabularies are not yet available but will become so in late 2025.
+> Contact points for individual vocabularies are not yet available but will likely become so in late 2025.
