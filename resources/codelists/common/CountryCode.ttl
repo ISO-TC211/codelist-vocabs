@@ -3007,5 +3007,5 @@ cs:
     schema:dateModified "2025-08-01"^^xsd:date ;
     schema:isPartOf <https://def.isotc211.org/common> ;
     schema:publisher <https://def.isotc211.org/org/tc211> ;
-    schema:status <https://def.isotc211.org/common/RE_ItemStatus/valid> ;
+    schema:status <https://def.isotc211.org/RE/ItemStatus/stable> ;
 .

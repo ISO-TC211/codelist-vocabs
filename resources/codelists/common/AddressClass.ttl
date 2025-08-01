@@ -19,8 +19,9 @@ cs:
     schema:dateCreated "2015-12-15"^^xsd:date ;
     schema:dateModified "2025-08-01"^^xsd:date ;
     schema:dateIssued "2000-01-01"^^xsd:date ;
-    schema:publisher <https://def.isotc211.org/org/tc211> ;
     schema:isPartOf <https://def.isotc211.org/common> ;
+    schema:publisher <https://def.isotc211.org/org/tc211> ;
+    schema:status <https://def.isotc211.org/RE/ItemStatus/stable> ;
     skos:hasTopConcept
         :placeholder ;
 .
