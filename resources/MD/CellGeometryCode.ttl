@@ -1,0 +1,73 @@
+PREFIX : <http://def.isotc211.org/MD/CellGeometryCode/>
+PREFIX cs: <http://def.isotc211.org/MD/CellGeometryCode>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX status: <http://def.isotc211.org/RE/ItemStatus/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+:area
+    a skos:Concept ;
+    schema:status status:stable ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "each cell represents an area" ;
+    skos:historyNote "Presented in the original standard's codelist"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "area"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:point
+    a skos:Concept ;
+    schema:status status:stable ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "each cell represents a point" ;
+    skos:historyNote "Presented in the original standard's codelist"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "point"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:stratum
+    a skos:Concept ;
+    schema:status status:stable ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "height range for a single point vertical profile" ;
+    skos:historyNote "Presented in the original standard's codelist"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "stratum"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:voxel
+    a skos:Concept ;
+    schema:status status:stable ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "each cell represents a volumetric measurement on a regular grid in three dimensional space" ;
+    skos:historyNote "Presented in the original standard's codelist"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "voxel"@en ;
+    skos:topConceptOf cs: ;
+.
+
+cs:
+    a skos:ConceptScheme ;
+    schema:status status:valid ;
+    skos:definition "code indicating the geometry represented by the grid cell value"@en ;
+    skos:hasTopConcept
+        :area ,
+        :point ,
+        :stratum ,
+        :voxel ;
+    skos:historyNote """2025-08: Implemented TC-211 persistent IRIs
+
+2023: Derived from TC-211-produced RDF versions of the standard's UML"""@en ;
+    skos:prefLabel "MD Cell Geometry Code"@en ;
+    schema:citation "http://standards.iso.org/iso/19115/-1/ed-1/en/"^^xsd:anyURI ;
+    schema:creator <https://committee.iso.org/home/tc211> ;
+    schema:dateCreated "2000-01-01"^^xsd:date ;
+    schema:dateModified "2025-08-01"^^xsd:date ;
+    schema:dateIssued "2000-01-01"^^xsd:date ;
+    schema:publisher <https://committee.iso.org/home/tc211> ;
+    schema:isPartOf <https://def.isotc211.org/codesets> ;
+.

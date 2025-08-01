@@ -1,0 +1,145 @@
+PREFIX : <http://def.isotc211.org/common/DCPList/>
+PREFIX cs: <http://def.isotc211.org/common/DCPList>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX status: <http://def.isotc211.org/RE/ItemStatus/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+:COM
+    a skos:Concept ;
+    schema:status status:stable ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Missing"@en ;
+    skos:historyNote "Presented in the original standard's code set"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "com"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:CORBA
+    a skos:Concept ;
+    schema:status status:stable ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Missing"@en ;
+    skos:historyNote "Presented in the original standard's code set"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "corba"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:FTP
+    a skos:Concept ;
+    schema:status status:stable ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Missing"@en ;
+    skos:historyNote "Presented in the original standard's code set"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "ftp"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:HTTP
+    a skos:Concept ;
+    schema:status status:stable ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Missing"@en ;
+    skos:historyNote "Presented in the original standard's code set"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "http"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:JAVA
+    a skos:Concept ;
+    schema:status status:stable ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Missing"@en ;
+    skos:historyNote "Presented in the original standard's code set"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "java"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:SOAP
+    a skos:Concept ;
+    schema:status status:stable ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Missing"@en ;
+    skos:historyNote "Presented in the original standard's code set"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "soap"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:SQL
+    a skos:Concept ;
+    schema:status status:stable ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Missing"@en ;
+    skos:historyNote "Presented in the original standard's code set"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "sql"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:XML
+    a skos:Concept ;
+    schema:status status:stable ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Missing"@en ;
+    skos:historyNote "Presented in the original standard's code set"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "xml"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:Z3950
+    a skos:Concept ;
+    schema:status status:stable ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Missing"@en ;
+    skos:historyNote "Presented in the original standard's code set"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "z3950"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:webServices
+    a skos:Concept ;
+    schema:status status:stable ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Missing"@en ;
+    skos:historyNote "Presented in the original standard's code set"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "web services"@en ;
+    skos:topConceptOf cs: ;
+.
+
+cs:
+    a skos:ConceptScheme ;
+    schema:status status:valid ;
+    skos:definition "class of information to which the referencing entity applies"@en ;
+    skos:hasTopConcept
+        :COM ,
+        :CORBA ,
+        :FTP ,
+        :HTTP ,
+        :JAVA ,
+        :SOAP ,
+        :SQL ,
+        :XML ,
+        :Z3950 ,
+        :webServices ;
+    skos:historyNote """2025-08: Implemented TC-211 persistent IRIs
+
+2023: Derived from TC-211-produced RDF versions of the standard's UML"""@en ;
+    skos:prefLabel "DCPList"@en ;
+    schema:citation "http://standards.iso.org/iso/19115/-1/ed-1/en/"^^xsd:anyURI ;
+    schema:creator <https://committee.iso.org/home/tc211> ;
+    schema:dateCreated "2000-01-01"^^xsd:date ;
+    schema:dateModified "2025-08-01"^^xsd:date ;
+    schema:dateIssued "2000-01-01"^^xsd:date ;
+    schema:publisher <https://committee.iso.org/home/tc211> ;
+    schema:isPartOf <https://def.isotc211.org/codesets> ;
+.

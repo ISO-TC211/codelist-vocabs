@@ -1,0 +1,361 @@
+PREFIX : <http://def.isotc211.org/19115/-1/2014/ReferenceSystemInformation/code/MD_ReferenceSystemTypeCode/>
+PREFIX cs: <http://def.isotc211.org/19115/-1/2014/ReferenceSystemInformation/code/MD_ReferenceSystemTypeCode>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX status: <http://def.isotc211.org/RE/ItemStatus/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+:compoundEngineeringParametric
+    a skos:Concept ;
+    schema:status status:stable ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Missing"@en ;
+    skos:historyNote "Presented in the original standard's codelist"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "compound engineering parametric"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:compoundEngineeringParametricTemporal
+    a skos:Concept ;
+    schema:status status:stable ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Missing"@en ;
+    skos:historyNote "Presented in the original standard's codelist"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "compound engineering parametric temporal"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:compoundEngineeringTemporal
+    a skos:Concept ;
+    schema:status status:stable ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Missing"@en ;
+    skos:historyNote "Presented in the original standard's codelist"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "compound engineering temporal"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:compoundEngineeringVertical
+    a skos:Concept ;
+    schema:status status:stable ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Missing"@en ;
+    skos:historyNote "Presented in the original standard's codelist"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "compound engineering vertical"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:compoundEngineeringVerticalTemporal
+    a skos:Concept ;
+    schema:status status:stable ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Missing"@en ;
+    skos:historyNote "Presented in the original standard's codelist"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "compound engineering vertical temporal"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:compoundGeographic2DParametric
+    a skos:Concept ;
+    schema:status status:stable ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Missing"@en ;
+    skos:historyNote "Presented in the original standard's codelist"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "compound geographic2dparametric"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:compoundGeographic2DParametricTemporal
+    a skos:Concept ;
+    schema:status status:stable ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Missing"@en ;
+    skos:historyNote "Presented in the original standard's codelist"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "compound geographic2dparametric temporal"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:compoundGeographic2DTemporal
+    a skos:Concept ;
+    schema:status status:stable ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Missing"@en ;
+    skos:historyNote "Presented in the original standard's codelist"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "compound geographic2dtemporal"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:compoundGeographic2DVertical
+    a skos:Concept ;
+    schema:status status:stable ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Missing"@en ;
+    skos:historyNote "Presented in the original standard's codelist"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "compound geographic2dvertical"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:compoundGeographic2DVerticalTemporal
+    a skos:Concept ;
+    schema:status status:stable ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Missing"@en ;
+    skos:historyNote "Presented in the original standard's codelist"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "compound geographic2dvertical temporal"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:compoundGeographic3DTemporal
+    a skos:Concept ;
+    schema:status status:stable ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Missing"@en ;
+    skos:historyNote "Presented in the original standard's codelist"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "compound geographic3dtemporal"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:compoundProjected2DParametric
+    a skos:Concept ;
+    schema:status status:stable ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Missing"@en ;
+    skos:historyNote "Presented in the original standard's codelist"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "compound projected2dparametric"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:compoundProjected2DParametricTemporal
+    a skos:Concept ;
+    schema:status status:stable ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Missing"@en ;
+    skos:historyNote "Presented in the original standard's codelist"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "compound projected2dparametric temporal"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:compoundProjectedTemporal
+    a skos:Concept ;
+    schema:status status:stable ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Missing"@en ;
+    skos:historyNote "Presented in the original standard's codelist"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "compound projected temporal"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:compoundProjectedVertical
+    a skos:Concept ;
+    schema:status status:stable ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Missing"@en ;
+    skos:historyNote "Presented in the original standard's codelist"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "compound projected vertical"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:compoundProjectedVerticalTemporal
+    a skos:Concept ;
+    schema:status status:stable ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Missing"@en ;
+    skos:historyNote "Presented in the original standard's codelist"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "compound projected vertical temporal"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:engineering
+    a skos:Concept ;
+    schema:status status:stable ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Missing"@en ;
+    skos:historyNote "Presented in the original standard's codelist"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "engineering"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:engineeringDesign
+    a skos:Concept ;
+    schema:status status:stable ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Missing"@en ;
+    skos:historyNote "Presented in the original standard's codelist"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "engineering design"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:engineeringImage
+    a skos:Concept ;
+    schema:status status:stable ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Missing"@en ;
+    skos:historyNote "Presented in the original standard's codelist"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "engineering image"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:geodeticGeocentric
+    a skos:Concept ;
+    schema:status status:stable ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Missing"@en ;
+    skos:historyNote "Presented in the original standard's codelist"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "geodetic geocentric"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:geodeticGeographic2D
+    a skos:Concept ;
+    schema:status status:stable ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Missing"@en ;
+    skos:historyNote "Presented in the original standard's codelist"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "geodetic geographic2d"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:geodeticGeographic3D
+    a skos:Concept ;
+    schema:status status:stable ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Missing"@en ;
+    skos:historyNote "Presented in the original standard's codelist"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "geodetic geographic3d"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:geographicIdentifier
+    a skos:Concept ;
+    schema:status status:stable ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Missing"@en ;
+    skos:historyNote "Presented in the original standard's codelist"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "geographic identifier"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:linear
+    a skos:Concept ;
+    schema:status status:stable ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Missing"@en ;
+    skos:historyNote "Presented in the original standard's codelist"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "linear"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:parametric
+    a skos:Concept ;
+    schema:status status:stable ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Missing"@en ;
+    skos:historyNote "Presented in the original standard's codelist"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "parametric"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:projected
+    a skos:Concept ;
+    schema:status status:stable ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Missing"@en ;
+    skos:historyNote "Presented in the original standard's codelist"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "projected"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:temporal
+    a skos:Concept ;
+    schema:status status:stable ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Missing"@en ;
+    skos:historyNote "Presented in the original standard's codelist"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "temporal"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:vertical
+    a skos:Concept ;
+    schema:status status:stable ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Missing"@en ;
+    skos:historyNote "Presented in the original standard's codelist"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "vertical"@en ;
+    skos:topConceptOf cs: ;
+.
+
+cs:
+    a skos:ConceptScheme ;
+    schema:status status:valid ;
+    skos:definition "defines type of reference system used"@en ;
+    skos:hasTopConcept
+        :compoundEngineeringParametric ,
+        :compoundEngineeringParametricTemporal ,
+        :compoundEngineeringTemporal ,
+        :compoundEngineeringVertical ,
+        :compoundEngineeringVerticalTemporal ,
+        :compoundGeographic2DParametric ,
+        :compoundGeographic2DParametricTemporal ,
+        :compoundGeographic2DTemporal ,
+        :compoundGeographic2DVertical ,
+        :compoundGeographic2DVerticalTemporal ,
+        :compoundGeographic3DTemporal ,
+        :compoundProjected2DParametric ,
+        :compoundProjected2DParametricTemporal ,
+        :compoundProjectedTemporal ,
+        :compoundProjectedVertical ,
+        :compoundProjectedVerticalTemporal ,
+        :engineering ,
+        :engineeringDesign ,
+        :engineeringImage ,
+        :geodeticGeocentric ,
+        :geodeticGeographic2D ,
+        :geodeticGeographic3D ,
+        :geographicIdentifier ,
+        :linear ,
+        :parametric ,
+        :projected ,
+        :temporal ,
+        :vertical ;
+    skos:historyNote """2025-08: Implemented TC-211 persistent IRIs
+
+2023: Derived from TC-211-produced RDF versions of the standard's UML"""@en ;
+    skos:prefLabel "MD Reference System Type Code"@en ;
+    schema:citation "http://standards.iso.org/iso/19115/-1/ed-1/en/"^^xsd:anyURI ;
+    schema:creator <https://committee.iso.org/home/tc211> ;
+    schema:dateCreated "2000-01-01"^^xsd:date ;
+    schema:dateModified "2025-08-01"^^xsd:date ;
+    schema:dateIssued "2000-01-01"^^xsd:date ;
+    schema:publisher <https://committee.iso.org/home/tc211> ;
+    schema:isPartOf <https://def.isotc211.org/codesets> ;
+.
