@@ -1,0 +1,44 @@
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<https://def.isotc211.org/common>
+    a dcat:Catalog ;
+    dcterms:hasPart
+        <https://def.isotc211.org/AddressAliasType> ,
+        <https://def.isotc211.org/AddressClass> ,
+        <https://def.isotc211.org/AddressComponentType> ,
+        <https://def.isotc211.org/AddressComponentValueType> ,
+        <https://def.isotc211.org/AddressLifecycleStage> ,
+        <https://def.isotc211.org/AddressPositionType> ,
+        <https://def.isotc211.org/AddressStatus> ,
+        <https://def.isotc211.org/AddressTypology> ,
+        <https://def.isotc211.org/AddressableObjectLifecycleStage> ,
+        <https://def.isotc211.org/AddressableObjectType> ,
+        <https://def.isotc211.org/CountryCode> ,
+        <https://def.isotc211.org/DCPList> ,
+        <https://def.isotc211.org/EvaluationMethodTypeCode> ,
+        <https://def.isotc211.org/KeywordTypeCode-Bio> ,
+        <https://def.isotc211.org/LanguageCode> ,
+        <https://def.isotc211.org/ReferenceObjectType> ,
+        <https://def.isotc211.org/ValueStructure> ;
+    dcterms:isPArtOf <https://def.isotc211.org/codesets> ;
+    skos:historyNote "This catalogue was assembled by TC-211's Group on Ontology Maintenance"@en ;
+    schema:codeRepository "https://github.com/ISO-TC211/codelist-vocabularies" ;
+    schema:contributor <https://def.isotc211.org/org/ogc> ;
+    schema:creator <https://def.isotc211.org/org/tc211> ;
+    schema:dateCreated "2024-09-03"^^xsd:date ;
+    schema:dateModified "2025-08-01"^^xsd:date ;
+    schema:description """Codelists and codesets in the TC-211 Harmonised Model's common package
+
+This catalogue is the location for some existing and all future TC-211 codelists and codesets.""" ;
+    schema:keywords
+        "ISO" ,
+        "International Organization for Standardization" ,
+        "geographic information" ,
+        "geomatics" ;
+    schema:name "ISO TC-211 Common Codelists and Codesets" ;
+    schema:publisher <https://def.isotc211.org/org/tc211> ;
+.
