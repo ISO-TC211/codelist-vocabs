@@ -1,5 +1,5 @@
-PREFIX : <https://def.isotc211.org/19115/-1/2014/IdentificationInformation/code/MD_KeywordTypeCode/>
-PREFIX cs: <https://def.isotc211.org/19115/-1/2014/IdentificationInformation/code/MD_KeywordTypeCode>
+PREFIX : <https://def.isotc211.org/MD/KeywordTypeCode/>
+PREFIX cs: <https://def.isotc211.org/MD/KeywordTypeCode>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX schema: <https://schema.org/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
