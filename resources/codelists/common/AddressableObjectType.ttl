@@ -24,7 +24,7 @@ cs:
     schema:status status:stable ;
     skos:hasTopConcept
         :placeholder ;
-    prov:wasDerivedFrom <https://def.isotc211.org/common/standard/iso-19160-1-2015> ;
+    rdfs:isDefinedBy <https://def.isotc211.org/common/standard/iso-19160-1-2015> ;
 .
 
 :placeholder

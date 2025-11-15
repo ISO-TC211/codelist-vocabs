@@ -70,4 +70,5 @@ cs:
     schema:isPartOf <https://def.isotc211.org/MD> ;
     schema:publisher <https://def.isotc211.org/org/tc211> ;
     schema:status status:stable ;
+    rdfs:isDefinedBy <https://def.isotc211.org/common/standard/iso-19115-1-2014> ;
 .

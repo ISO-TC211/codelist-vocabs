@@ -43,7 +43,7 @@ cs:
         :final ,
         :pending ,
         :tentative ;
-    skos:historyNote "Created manually by GOM staff directly from the ISO19132-1:2014 document"@en ;
+    skos:historyNote "Created manually by GOM staff directly from the ISO19135-1:2014 document"@en ;
     skos:prefLabel "RE Decision Status Codes"@en ;
     schema:citation "http://standards.iso.org/iso/19135/-1/ed-1/en/"^^xsd:anyURI ;
     schema:creator <https://def.isotc211.org/org/tc211> ;
@@ -52,4 +52,5 @@ cs:
     schema:isPartOf <https://def.isotc211.org/RE> ;
     schema:publisher <https://def.isotc211.org/org/tc211> ;
     schema:status status:stable ;
+    rdfs:isDefinedBy <https://def.isotc211.org/common/standard/iso-19135-1-2015> ;
 .

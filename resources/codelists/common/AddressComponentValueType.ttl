@@ -82,5 +82,5 @@ cs:
     schema:isPartOf <https://def.isotc211.org/common> ;
     schema:publisher <https://def.isotc211.org/org/tc211> ;
     schema:status status:stable ;
-    prov:wasDerivedFrom <https://def.isotc211.org/common/standard/iso-19160-1-2015> ;
+    rdfs:isDefinedBy <https://def.isotc211.org/common/standard/iso-19160-1-2015> ;
 .
