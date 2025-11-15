@@ -1,220 +1,233 @@
-PREFIX : <https://def.isotc211.org/common/RestrictionCode/>
-PREFIX cs: <https://def.isotc211.org/common/RestrictionCode>
+PREFIX : <https://def.isotc211.org/common/ProgressCode/>
+PREFIX cs: <https://def.isotc211.org/common/ProgressCode>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX schema: <https://schema.org/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX status: <https://def.isotc211.org/RE/ItemStatus/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-:confidential
+:accepted
     a skos:Concept ;
-    skos:definition "not available to the public contains information that could be prejudicial to a commercial, industrial, or national interest"@en ;
+    skos:definition "agreed to by sponsor"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
-    skos:prefLabel "confidential"@en ;
+    skos:prefLabel "accepted"@en ;
     skos:topConceptOf cs: ;
     schema:status status:original ;
-    rdfs:isDefinedBy <https://def.isotc211.org/MD/RestrictionCode> ;
+    rdfs:isDefinedBy <https://def.isotc211.org/MD/ProgressCode> ;
 .
 
-:copyright
+:completed
     a skos:Concept ;
-    skos:definition "exclusive right to the publication, production, or sale of the rights to a literary, dramatic, musical, or artistic work, or to the use of a commercial print or label, granted by law for a specified period of time to an author, composer, artist, distributor"@en ;
+    skos:definition "has been completed"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
-    skos:prefLabel "copyright"@en ;
+    skos:prefLabel "completed"@en ;
     skos:topConceptOf cs: ;
     schema:status status:original ;
-    rdfs:isDefinedBy <https://def.isotc211.org/MD/RestrictionCode> ;
+    rdfs:isDefinedBy <https://def.isotc211.org/MD/ProgressCode> ;
 .
 
-:in-confidence
+:deprecated
     a skos:Concept ;
-    skos:definition "with trust"@en ;
+    skos:definition "resource superseded and will become obsolete, use only for historical purposes"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
-    skos:prefLabel "in-confidence"@en ;
+    skos:prefLabel "deprecated"@en ;
     skos:topConceptOf cs: ;
     schema:status status:original ;
-    rdfs:isDefinedBy <https://def.isotc211.org/MD/RestrictionCode> ;
+    rdfs:isDefinedBy <https://def.isotc211.org/MD/ProgressCode> ;
 .
 
-:intellectualPropertyRights
+:final
     a skos:Concept ;
-    skos:definition "rights to financial benefit from and control of distribution of non-tangible property that is a result of creativity"@en ;
+    skos:definition "progress concluded and no changes will be accepted"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
-    skos:prefLabel "intellectual property rights"@en ;
+    skos:prefLabel "final"@en ;
     skos:topConceptOf cs: ;
     schema:status status:original ;
-    rdfs:isDefinedBy <https://def.isotc211.org/MD/RestrictionCode> ;
+    rdfs:isDefinedBy <https://def.isotc211.org/MD/ProgressCode> ;
 .
 
-:licence
+:historicalArchive
     a skos:Concept ;
-    skos:definition "formal permission to do something"@en ;
+    skos:definition "stored in an offline storage facility"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
-    skos:prefLabel "licence"@en ;
+    skos:prefLabel "historical archive"@en ;
     skos:topConceptOf cs: ;
     schema:status status:original ;
-    rdfs:isDefinedBy <https://def.isotc211.org/MD/RestrictionCode> ;
+    rdfs:isDefinedBy <https://def.isotc211.org/MD/ProgressCode> ;
 .
 
-:licenceDistributor
+:notAccepted
     a skos:Concept ;
-    skos:definition "formal permission required for a person or an entity to commercialize or distribute the resource"@en ;
+    skos:definition "rejected by sponsor"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
-    skos:prefLabel "licence distributor"@en ;
+    skos:prefLabel "not accepted"@en ;
     skos:topConceptOf cs: ;
     schema:status status:original ;
-    rdfs:isDefinedBy <https://def.isotc211.org/MD/RestrictionCode> ;
+    rdfs:isDefinedBy <https://def.isotc211.org/MD/ProgressCode> ;
 .
 
-:licenceEndUser
+:obsolete
     a skos:Concept ;
-    skos:definition "formal permission required for a person or an entity to use the resource and that may differ from the person that orders or purchases it"@en ;
+    skos:definition "no longer relevant"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
-    skos:prefLabel "licence end user"@en ;
+    skos:prefLabel "obsolete"@en ;
     skos:topConceptOf cs: ;
     schema:status status:original ;
-    rdfs:isDefinedBy <https://def.isotc211.org/MD/RestrictionCode> ;
+    rdfs:isDefinedBy <https://def.isotc211.org/MD/ProgressCode> ;
 .
 
-:licenceUnrestricted
+:onGoing
     a skos:Concept ;
-    skos:definition "formal permission not required to use the resource"@en ;
+    skos:definition "continually being updated"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
-    skos:prefLabel "licence unrestricted"@en ;
+    skos:prefLabel "on going"@en ;
     skos:topConceptOf cs: ;
     schema:status status:original ;
-    rdfs:isDefinedBy <https://def.isotc211.org/MD/RestrictionCode> ;
+    rdfs:isDefinedBy <https://def.isotc211.org/MD/ProgressCode> ;
 .
 
-:otherRestrictions
+:pending
     a skos:Concept ;
-    skos:definition "limitation not listed"@en ;
+    skos:definition "committed to, but not yet addressed"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
-    skos:prefLabel "other restrictions"@en ;
+    skos:prefLabel "pending"@en ;
     skos:topConceptOf cs: ;
     schema:status status:original ;
-    rdfs:isDefinedBy <https://def.isotc211.org/MD/RestrictionCode> ;
+    rdfs:isDefinedBy <https://def.isotc211.org/MD/ProgressCode> ;
 .
 
-:patent
+:planned
     a skos:Concept ;
-    skos:definition "government has granted exclusive right to make, sell, use or license an invention or discovery"@en ;
+    skos:definition "fixed date has been established upon or by which the resource will be created or updated"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
-    skos:prefLabel "patent"@en ;
+    skos:prefLabel "planned"@en ;
     skos:topConceptOf cs: ;
     schema:status status:original ;
-    rdfs:isDefinedBy <https://def.isotc211.org/MD/RestrictionCode> ;
+    rdfs:isDefinedBy <https://def.isotc211.org/MD/ProgressCode> ;
 .
 
-:patentPending
+:proposed
     a skos:Concept ;
-    skos:definition "produced or sold information awaiting a patent"@en ;
+    skos:definition "suggested that development needs to be undertaken"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
-    skos:prefLabel "patent pending"@en ;
+    skos:prefLabel "proposed"@en ;
     skos:topConceptOf cs: ;
     schema:status status:original ;
-    rdfs:isDefinedBy <https://def.isotc211.org/MD/RestrictionCode> ;
+    rdfs:isDefinedBy <https://def.isotc211.org/MD/ProgressCode> ;
 .
 
-:private
+:required
     a skos:Concept ;
-    skos:definition "protects rights of individual or organisations from observation, intrusion, or attention of others"@en ;
+    skos:definition "needs to be generated or updated"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
-    skos:prefLabel "private"@en ;
+    skos:prefLabel "required"@en ;
     skos:topConceptOf cs: ;
     schema:status status:original ;
-    rdfs:isDefinedBy <https://def.isotc211.org/MD/RestrictionCode> ;
+    rdfs:isDefinedBy <https://def.isotc211.org/MD/ProgressCode> ;
 .
 
-:restricted
+:retired
     a skos:Concept ;
-    skos:definition "withheld from general circulation or disclosure"@en ;
+    skos:definition "item is no longer recommended for use. It has not been superseded by another item"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
-    skos:prefLabel "restricted"@en ;
+    skos:prefLabel "retired"@en ;
     skos:topConceptOf cs: ;
     schema:status status:original ;
-    rdfs:isDefinedBy <https://def.isotc211.org/MD/RestrictionCode> ;
+    rdfs:isDefinedBy <https://def.isotc211.org/MD/ProgressCode> ;
 .
 
-:sensitiveButUnclassified
+:superseded
     a skos:Concept ;
-    skos:definition "although unclassified, requires strict controls over its distribution."@en ;
+    skos:definition "replaced by new"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
-    skos:prefLabel "sensitive but unclassified"@en ;
+    skos:prefLabel "superseded"@en ;
     skos:topConceptOf cs: ;
     schema:status status:original ;
-    rdfs:isDefinedBy <https://def.isotc211.org/MD/RestrictionCode> ;
+    rdfs:isDefinedBy <https://def.isotc211.org/MD/ProgressCode> ;
 .
 
-:statutory
+:tentative
     a skos:Concept ;
-    skos:definition "prescribed by law"@en ;
+    skos:definition "provisional changes likely before resource becomes final or complete"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
-    skos:prefLabel "statutory"@en ;
+    skos:prefLabel "tentative"@en ;
     skos:topConceptOf cs: ;
     schema:status status:original ;
-    rdfs:isDefinedBy <https://def.isotc211.org/MD/RestrictionCode> ;
+    rdfs:isDefinedBy <https://def.isotc211.org/MD/ProgressCode> ;
 .
 
-:trademark
+:underDevelopment
     a skos:Concept ;
-    skos:definition "a name, symbol, or other device identifying a product, officially registered and legally restricted to the use of the owner or manufacturer"@en ;
+    skos:definition "currently in the process of being created"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
-    skos:prefLabel "trademark"@en ;
+    skos:prefLabel "under development"@en ;
     skos:topConceptOf cs: ;
     schema:status status:original ;
-    rdfs:isDefinedBy <https://def.isotc211.org/MD/RestrictionCode> ;
+    rdfs:isDefinedBy <https://def.isotc211.org/MD/ProgressCode> ;
 .
 
-:unrestricted
+:valid
     a skos:Concept ;
-    skos:definition "no constraints exist"@en ;
+    skos:definition "acceptable under specific conditions"@en ;
     skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
     skos:inScheme cs: ;
-    skos:prefLabel "unrestricted"@en ;
+    skos:prefLabel "valid"@en ;
     skos:topConceptOf cs: ;
     schema:status status:original ;
-    rdfs:isDefinedBy <https://def.isotc211.org/MD/RestrictionCode> ;
+    rdfs:isDefinedBy <https://def.isotc211.org/MD/ProgressCode> ;
+.
+
+:withdrawn
+    a skos:Concept ;
+    skos:definition "removed from consideration"@en ;
+    skos:historyNote "Originally presented in the ISO 19115-1:2014 standard codelist, reproduced unchanged here"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "withdrawn"@en ;
+    skos:topConceptOf cs: ;
+    schema:status status:original ;
+    rdfs:isDefinedBy <https://def.isotc211.org/MD/ProgressCode> ;
 .
 
 cs:
     a skos:ConceptScheme ;
-    skos:definition "limitation(s) placed upon the access or use of the data"@en ;
+    skos:definition "status of the resource"@en ;
     skos:hasTopConcept
-        :confidential ,
-        :copyright ,
-        :in-confidence ,
-        :intellectualPropertyRights ,
-        :licence ,
-        :licenceDistributor ,
-        :licenceEndUser ,
-        :licenceUnrestricted ,
-        :otherRestrictions ,
-        :patent ,
-        :patentPending ,
-        :private ,
-        :restricted ,
-        :sensitiveButUnclassified ,
-        :statutory ,
-        :trademark ,
-        :unrestricted ;
+        :accepted ,
+        :completed ,
+        :deprecated ,
+        :final ,
+        :historicalArchive ,
+        :notAccepted ,
+        :obsolete ,
+        :onGoing ,
+        :pending ,
+        :planned ,
+        :proposed ,
+        :required ,
+        :retired ,
+        :superseded ,
+        :tentative ,
+        :underDevelopment ,
+        :valid ,
+        :withdrawn ;
     skos:historyNote "This version of this codeset was produced for the 2025 update of the 19115 standard" ;
-    skos:prefLabel "Restriction Code"@en ;
+    skos:prefLabel "Progress Code"@en ;
     schema:creator <https://def.isotc211.org/org/tc211> ;
     schema:dateCreated "2025-11-19"^^xsd:date ;
     schema:dateIssued "2025-11-19"^^xsd:date ;
