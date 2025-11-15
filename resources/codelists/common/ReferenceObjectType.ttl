@@ -8,9 +8,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 cs:
     a skos:ConceptScheme ;
-    schema:status status:stable ;
     skos:definition "An ISO standard's ConceptScheme"@en ;
-    skos:historyNote "This codelist vocabulary was extracted directly from the defining standard: ISO19160-1:205"@en ;
+    skos:historyNote "This codelist vocabulary was extracted directly from the defining standard: ISO19160-1:2015"@en ;
     skos:prefLabel "Reference Object Type"@en ;
     skos:scopeNote "This codelist has no values provided in the specifying standard. It may be added to through standard TC-211 codelist extension practices"@en ;
     schema:citation "http://standards.iso.org/iso/19160/-1/ed-1/en/"^^xsd:anyURI ;
@@ -21,7 +20,7 @@ cs:
     schema:dateIssued "2025-11-19"^^xsd:date ;
     schema:isPartOf <https://def.isotc211.org/common> ;
     schema:publisher <https://def.isotc211.org/org/tc211> ;
-    schema:status <https://def.isotc211.org/RE/ItemStatus/stable> ;
+    schema:status status:stable ;
     skos:hasTopConcept
         :placeholder ;
 .

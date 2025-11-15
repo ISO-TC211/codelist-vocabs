@@ -8,7 +8,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:url "https://www.iso.org/committee/54904.html"^^xsd:anyURI ;
 .
 
-
 <https://def.isotc211.org/org/ogc>
     a schema:Organization ;
     schema:name "Open Geospatial Consortium" ;
