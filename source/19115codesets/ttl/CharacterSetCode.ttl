@@ -1,6 +1,5 @@
-PREFIX : <https://def.isotc211.org/common/CountryCode/>
-PREFIX cs: <https://def.isotc211.org/common/CountryCode>
-PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX : <https://def.isotc211.org/common/CharacterSetCode/>
+PREFIX cs: <https://def.isotc211.org/common/CharacterSetCode>
 PREFIX schema: <https://schema.org/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX status: <https://def.isotc211.org/RE/ItemStatus/>
@@ -10,7 +9,7 @@ cs:
     a skos:ConceptScheme ;
     skos:definition ""@en ;
     skos:historyNote "This version of this codeset was produced for the 2025 update of the 19115 standard" ;
-    skos:prefLabel "Country Code"@en ;
+    skos:prefLabel "Character Set Code"@en ;
     schema:creator <https://def.isotc211.org/org/tc211> ;
     schema:dateCreated "2025-11-19"^^xsd:date ;
     schema:dateIssued "2025-11-19"^^xsd:date ;
@@ -18,5 +17,18 @@ cs:
     schema:isPartOf <https://def.isotc211.org/common> ;
     schema:publisher <https://def.isotc211.org/org/tc211> ;
     schema:status status:experimental ;
-    prov:wasDerivedFrom <https://def.isotc211.org/common/standard/iso-awi-19115-1> ;
+    skos:hasTopConcept
+        :placeholder ;
+    rdfs:isDefinedBy <https://def.isotc211.org/common/standard/iso-awi-19115-1> ;
+.
+
+:placeholder
+    a skos:Concept ;
+    schema:status status:experimental ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "placeholder concept" ;
+    skos:historyNote "to be removed when codelist is under active management"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "placeholder"@en ;
+    skos:topConceptOf cs: ;
 .
