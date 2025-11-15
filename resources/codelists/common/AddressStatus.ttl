@@ -8,39 +8,40 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :official
     a skos:Concept ;
-    schema:status status:original ;
     rdfs:isDefinedBy cs: ;
     skos:definition "An official addressing authority assigned the address." ;
+    skos:historyNote "Presented in the original standard's codelist"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "official"@en ;
     skos:topConceptOf cs: ;
-    skos:historyNote "Presented in the original standard's codelist"@en ;
+    schema:status status:original ;
 .
 
 :unknown
     a skos:Concept ;
-    schema:status status:original ;
     rdfs:isDefinedBy cs: ;
     skos:definition "The status of the address is unknown." ;
+    skos:historyNote "Presented in the original standard's codelist"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "unknown"@en ;
     skos:topConceptOf cs: ;
-    skos:historyNote "Presented in the original standard's codelist"@en ;
+    schema:status status:original ;
 .
 
 :unofficial
     a skos:Concept ;
-    schema:status status:original ;
     rdfs:isDefinedBy cs: ;
     skos:definition "The address was not assigned by an official addressing authority." ;
+    skos:historyNote "Presented in the original standard's codelist"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "unofficial"@en ;
     skos:topConceptOf cs: ;
-    skos:historyNote "Presented in the original standard's codelist"@en ;
+    schema:status status:original ;
 .
 
 cs:
     a skos:ConceptScheme ;
+    rdfs:isDefinedBy <https://def.isotc211.org/common/standard/iso-19160-1-2015> ;
     skos:definition "AddressStatus contains values to specify the status of an address"@en ;
     skos:hasTopConcept
         :official ,
@@ -52,10 +53,9 @@ cs:
     schema:contributor <https://def.isotc211.org/org/ogc> ;
     schema:creator <https://def.isotc211.org/org/tc211> ;
     schema:dateCreated "2015-12-15"^^xsd:date ;
-    schema:dateModified "2025-08-01"^^xsd:date ;
     schema:dateIssued "2025-11-19"^^xsd:date ;
+    schema:dateModified "2025-08-01"^^xsd:date ;
     schema:isPartOf <https://def.isotc211.org/common> ;
     schema:publisher <https://def.isotc211.org/org/tc211> ;
     schema:status status:stable ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/standard/iso-19160-1-2015> ;
 .

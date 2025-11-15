@@ -8,72 +8,73 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :bag
     a skos:Concept ;
-    schema:status status:original ;
     rdfs:isDefinedBy cs: ;
     skos:definition "finite, unordered collection of related items (objects or values) that may be repeated (ISO 19107:2003)"@en ;
     skos:historyNote "Presented in the original standard's codelist"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "bag"@en ;
     skos:topConceptOf cs: ;
+    schema:status status:original ;
 .
 
 :coverage
     a skos:Concept ;
-    schema:status status:original ;
     rdfs:isDefinedBy cs: ;
     skos:definition "feature that acts as a function to return values from its range for any direct position within its spatial, temporal or spatiotemporal domain (ISO 19123:2005)"@en ;
     skos:historyNote "Presented in the original standard's codelist"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "coverage"@en ;
     skos:topConceptOf cs: ;
+    schema:status status:original ;
 .
 
 :matrix
     a skos:Concept ;
-    schema:status status:original ;
     rdfs:isDefinedBy cs: ;
     skos:definition "rectangular array of numbers (ISO.sl.TS 19129:2009)"@en ;
     skos:historyNote "Presented in the original standard's codelist"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "matrix"@en ;
     skos:topConceptOf cs: ;
+    schema:status status:original ;
 .
 
 :sequence
     a skos:Concept ;
-    schema:status status:original ;
     rdfs:isDefinedBy cs: ;
     skos:definition "finite, ordered collection of related items (objects or values) that may be repeated (ISO 19107:2003)"@en ;
     skos:historyNote "Presented in the original standard's codelist"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "sequence"@en ;
     skos:topConceptOf cs: ;
+    schema:status status:original ;
 .
 
 :set
     a skos:Concept ;
-    schema:status status:original ;
     rdfs:isDefinedBy cs: ;
     skos:definition "unordered collection of related items (objects or values) with no repetition (ISO 19107:2003)"@en ;
     skos:historyNote "Presented in the original standard's codelist"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "set"@en ;
     skos:topConceptOf cs: ;
+    schema:status status:original ;
 .
 
 :table
     a skos:Concept ;
-    schema:status status:original ;
     rdfs:isDefinedBy cs: ;
     skos:definition "an arrangement of data in which each item may be identified by means of arguments or keys (ISO.sl.IEC 2382-4:1999)"@en ;
     skos:historyNote "Presented in the original standard's codelist"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "table"@en ;
     skos:topConceptOf cs: ;
+    schema:status status:original ;
 .
 
 cs:
     a skos:ConceptScheme ;
+    rdfs:isDefinedBy <https://def.isotc211.org/common/standard/iso-19157-1-2023> ;
     skos:definition "The structure of values in a dataset"@en ;
     skos:hasTopConcept
         :bag ,
@@ -93,5 +94,4 @@ cs:
     schema:isPartOf <https://def.isotc211.org/common> ;
     schema:publisher <https://def.isotc211.org/org/tc211> ;
     schema:status status:stable ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/standard/iso-19157-1-2023> ;
 .

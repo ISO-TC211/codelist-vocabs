@@ -8,39 +8,40 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :directExternal
     a skos:Concept ;
-    schema:status status:original ;
     rdfs:isDefinedBy cs: ;
     skos:definition "method of evaluating the quality of a dataset based on inspection of items within the dataset, where reference data external to the dataset being evaluated is required"@en ;
     skos:historyNote "Presented in the original standard's codelist"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "direct external"@en ;
     skos:topConceptOf cs: ;
+    schema:status status:original ;
 .
 
 :directInternal
     a skos:Concept ;
-    schema:status status:original ;
     rdfs:isDefinedBy cs: ;
     skos:definition "method of evaluating the quality of a dataset based on inspection of items within the dataset, where all data required is internal to the dataset being evaluated"@en ;
     skos:historyNote "Presented in the original standard's codelist"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "direct internal"@en ;
     skos:topConceptOf cs: ;
+    schema:status status:original ;
 .
 
 :indirect
     a skos:Concept ;
-    schema:status status:original ;
     rdfs:isDefinedBy cs: ;
     skos:definition "method of evaluating the quality of a dataset based on external knowledge"@en ;
     skos:historyNote "Presented in the original standard's codelist"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "indirect"@en ;
     skos:topConceptOf cs: ;
+    schema:status status:original ;
 .
 
 cs:
     a skos:ConceptScheme ;
+    rdfs:isDefinedBy <https://def.isotc211.org/common/standard/iso-19157-1-2023> ;
     skos:definition "Methods of evaluating the quality of a dataset"@en ;
     skos:hasTopConcept
         :directExternal ,
@@ -57,5 +58,4 @@ cs:
     schema:isPartOf <https://def.isotc211.org/common> ;
     schema:publisher <https://def.isotc211.org/org/tc211> ;
     schema:status status:stable ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/standard/iso-19157-1-2023> ;
 .

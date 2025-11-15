@@ -8,94 +8,95 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :addressedObjectIdentifier
     a skos:Concept ;
-    schema:status status:original ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Identifier of the addressed object, e.g. building name or address number." ;
+    skos:historyNote "Presented in the original standard's codelist"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "addressed object identifier"@en ;
     skos:topConceptOf cs: ;
-    skos:historyNote "Presented in the original standard's codelist"@en ;
+    schema:status status:original ;
 .
 
 :administrativeAreaName
     a skos:Concept ;
-    schema:status status:original ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Name of an administrative area." ;
+    skos:historyNote "Presented in the original standard's codelist"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "administrative area name"@en ;
     skos:topConceptOf cs: ;
-    skos:historyNote "Presented in the original standard's codelist"@en ;
+    schema:status status:original ;
 .
 
 :countryCode
     a skos:Concept ;
-    schema:status status:original ;
     rdfs:isDefinedBy cs: ;
     skos:definition "ISO 3166-1 code for the country, territory or area of geopolitical interest." ;
+    skos:historyNote "Presented in the original standard's codelist"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "country code"@en ;
     skos:topConceptOf cs: ;
-    skos:historyNote "Presented in the original standard's codelist"@en ;
+    schema:status status:original ;
 .
 
 :countryName
     a skos:Concept ;
-    schema:status status:original ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Name of a country." ;
+    skos:historyNote "Presented in the original standard's codelist"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "country name"@en ;
     skos:topConceptOf cs: ;
-    skos:historyNote "Presented in the original standard's codelist"@en ;
+    schema:status status:original ;
 .
 
 :localityName
     a skos:Concept ;
-    schema:status status:original ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Name of a locality." ;
+    skos:historyNote "Presented in the original standard's codelist"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "locality name"@en ;
     skos:topConceptOf cs: ;
-    skos:historyNote "Presented in the original standard's codelist"@en ;
+    schema:status status:original ;
 .
 
 :postOfficeName
     a skos:Concept ;
-    schema:status status:original ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Name of a post office." ;
+    skos:historyNote "Presented in the original standard's codelist"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "post office name"@en ;
     skos:topConceptOf cs: ;
-    skos:historyNote "Presented in the original standard's codelist"@en ;
+    schema:status status:original ;
 .
 
 :postcode
     a skos:Concept ;
-    schema:status status:original ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Code used for the sorting of mail [SOURCE: UPU S42:2006]." ;
+    skos:historyNote "Presented in the original standard's codelist"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "postcode"@en ;
     skos:topConceptOf cs: ;
-    skos:historyNote "Presented in the original standard's codelist"@en ;
+    schema:status status:original ;
 .
 
 :thoroughfareName
     a skos:Concept ;
-    schema:status status:original ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Name of a thoroughfare." ;
+    skos:historyNote "Presented in the original standard's codelist"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "thoroughfare name"@en ;
     skos:topConceptOf cs: ;
-    skos:historyNote "Presented in the original standard's codelist"@en ;
+    schema:status status:original ;
 .
 
 cs:
     a skos:ConceptScheme ;
+    rdfs:isDefinedBy <https://def.isotc211.org/common/standard/iso-19160-1-2015> ;
     skos:definition "Valid components types for different AddressClass values"@en ;
     skos:hasTopConcept
         :addressedObjectIdentifier ,
@@ -112,10 +113,9 @@ cs:
     schema:contributor <https://def.isotc211.org/org/ogc> ;
     schema:creator <https://def.isotc211.org/org/tc211> ;
     schema:dateCreated "2015-12-15"^^xsd:date ;
-    schema:dateModified "2025-08-01"^^xsd:date ;
     schema:dateIssued "2025-11-19"^^xsd:date ;
+    schema:dateModified "2025-08-01"^^xsd:date ;
     schema:isPartOf <https://def.isotc211.org/common> ;
     schema:publisher <https://def.isotc211.org/org/tc211> ;
     schema:status status:stable ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/standard/iso-19160-1-2015> ;
 .

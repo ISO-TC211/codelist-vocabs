@@ -8,61 +8,62 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :abbreviatedAlternative
     a skos:Concept ;
-    schema:status status:original ;
     rdfs:isDefinedBy cs: ;
     skos:definition "The alternative component value is an abbreviation." ;
+    skos:historyNote "Presented in the original standard's codelist"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "abbreviated alternative"@en ;
     skos:topConceptOf cs: ;
-    skos:historyNote "Presented in the original standard's codelist"@en ;
+    schema:status status:original ;
 .
 
 :colloquialAlternative
     a skos:Concept ;
-    schema:status status:original ;
     rdfs:isDefinedBy cs: ;
     skos:definition "The alternative component value is a colloquial alternative for the component value." ;
+    skos:historyNote "Presented in the original standard's codelist"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "colloquial alternative"@en ;
     skos:topConceptOf cs: ;
-    skos:historyNote "Presented in the original standard's codelist"@en ;
+    schema:status status:original ;
 .
 
 :defaultValue
     a skos:Concept ;
-    schema:status status:original ;
     rdfs:isDefinedBy cs: ;
     skos:definition "The default component value (i.e. the one that is not an alternative)." ;
+    skos:historyNote "Presented in the original standard's codelist"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "default value"@en ;
     skos:topConceptOf cs: ;
-    skos:historyNote "Presented in the original standard's codelist"@en ;
+    schema:status status:original ;
 .
 
 :lifecycleAlternative
     a skos:Concept ;
-    schema:status status:original ;
     rdfs:isDefinedBy cs: ;
     skos:definition "The alternative component value was used in a different lifecycle stage." ;
+    skos:historyNote "Presented in the original standard's codelist"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "lifecycle alternative"@en ;
     skos:topConceptOf cs: ;
-    skos:historyNote "Presented in the original standard's codelist"@en ;
+    schema:status status:original ;
 .
 
 :localeAlternative
     a skos:Concept ;
-    schema:status status:original ;
     rdfs:isDefinedBy cs: ;
     skos:definition "The alternative component value is in a different locale." ;
+    skos:historyNote "Presented in the original standard's codelist"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "locale alternative"@en ;
     skos:topConceptOf cs: ;
-    skos:historyNote "Presented in the original standard's codelist"@en ;
+    schema:status status:original ;
 .
 
 cs:
     a skos:ConceptScheme ;
+    rdfs:isDefinedBy <https://def.isotc211.org/common/standard/iso-19160-1-2015> ;
     skos:definition "AddressComponentValueType specifies the type of address component value"@en ;
     skos:hasTopConcept
         :abbreviatedAlternative ,
@@ -76,10 +77,9 @@ cs:
     schema:contributor <https://def.isotc211.org/org/ogc> ;
     schema:creator <https://def.isotc211.org/org/tc211> ;
     schema:dateCreated "2015-12-15"^^xsd:date ;
-    schema:dateModified "2025-08-01"^^xsd:date ;
     schema:dateIssued "2025-11-19"^^xsd:date ;
+    schema:dateModified "2025-08-01"^^xsd:date ;
     schema:isPartOf <https://def.isotc211.org/common> ;
     schema:publisher <https://def.isotc211.org/org/tc211> ;
     schema:status status:stable ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/standard/iso-19160-1-2015> ;
 .

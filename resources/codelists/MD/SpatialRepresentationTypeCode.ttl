@@ -8,72 +8,73 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :grid
     a skos:Concept ;
-    schema:status status:stable ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Missing"@en ;
     skos:historyNote "Presented in the original standard's codelist"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "grid"@en ;
     skos:topConceptOf cs: ;
+    schema:status status:stable ;
 .
 
 :stereoModel
     a skos:Concept ;
-    schema:status status:stable ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Missing"@en ;
     skos:historyNote "Presented in the original standard's codelist"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "stereo model"@en ;
     skos:topConceptOf cs: ;
+    schema:status status:stable ;
 .
 
 :textTable
     a skos:Concept ;
-    schema:status status:stable ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Missing"@en ;
     skos:historyNote "Presented in the original standard's codelist"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "text table"@en ;
     skos:topConceptOf cs: ;
+    schema:status status:stable ;
 .
 
 :tin
     a skos:Concept ;
-    schema:status status:stable ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Missing"@en ;
     skos:historyNote "Presented in the original standard's codelist"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "tin"@en ;
     skos:topConceptOf cs: ;
+    schema:status status:stable ;
 .
 
 :vector
     a skos:Concept ;
-    schema:status status:stable ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Missing"@en ;
     skos:historyNote "Presented in the original standard's codelist"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "vector"@en ;
     skos:topConceptOf cs: ;
+    schema:status status:stable ;
 .
 
 :video
     a skos:Concept ;
-    schema:status status:stable ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Missing"@en ;
     skos:historyNote "Presented in the original standard's codelist"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "video"@en ;
     skos:topConceptOf cs: ;
+    schema:status status:stable ;
 .
 
 cs:
     a skos:ConceptScheme ;
+    rdfs:isDefinedBy <https://def.isotc211.org/common/standard/iso-19115-1-2014> ;
     skos:definition "method used to represent geographic information in the resource"@en ;
     skos:hasTopConcept
         :grid ,
@@ -89,10 +90,9 @@ cs:
     schema:citation "http://standards.iso.org/iso/19115/-1/ed-1/en/"^^xsd:anyURI ;
     schema:creator <https://def.isotc211.org/org/tc211> ;
     schema:dateCreated "2000-01-01"^^xsd:date ;
-    schema:dateModified "2025-08-01"^^xsd:date ;
     schema:dateIssued "2025-11-19"^^xsd:date ;
+    schema:dateModified "2025-08-01"^^xsd:date ;
     schema:isPartOf <https://def.isotc211.org/MD> ;
     schema:publisher <https://def.isotc211.org/org/tc211> ;
     schema:status status:stable ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/standard/iso-19115-1-2014> ;
 .

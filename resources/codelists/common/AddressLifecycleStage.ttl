@@ -8,72 +8,73 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :current
     a skos:Concept ;
-    schema:status status:original ;
     rdfs:isDefinedBy cs: ;
     skos:definition "The address or address component is currently in use." ;
+    skos:historyNote "Presented in the original standard's codelist"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "current"@en ;
     skos:topConceptOf cs: ;
-    skos:historyNote "Presented in the original standard's codelist"@en ;
+    schema:status status:original ;
 .
 
 :proposed
     a skos:Concept ;
-    schema:status status:original ;
     rdfs:isDefinedBy cs: ;
     skos:definition "The address or address component has been proposed, i.e. the relevant authority has initiated approval procedures for the use of the address or address component." ;
+    skos:historyNote "Presented in the original standard's codelist"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "proposed"@en ;
     skos:topConceptOf cs: ;
-    skos:historyNote "Presented in the original standard's codelist"@en ;
+    schema:status status:original ;
 .
 
 :rejected
     a skos:Concept ;
-    schema:status status:original ;
     rdfs:isDefinedBy cs: ;
     skos:definition "The address or address component was proposed but rejected." ;
+    skos:historyNote "Presented in the original standard's codelist"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "rejected"@en ;
     skos:topConceptOf cs: ;
-    skos:historyNote "Presented in the original standard's codelist"@en ;
+    schema:status status:original ;
 .
 
 :reserved
     a skos:Concept ;
-    schema:status status:original ;
     rdfs:isDefinedBy cs: ;
     skos:definition "The address or address component has been reserved for future use." ;
+    skos:historyNote "Presented in the original standard's codelist"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "reserved"@en ;
     skos:topConceptOf cs: ;
-    skos:historyNote "Presented in the original standard's codelist"@en ;
+    schema:status status:original ;
 .
 
 :retired
     a skos:Concept ;
-    schema:status status:original ;
     rdfs:isDefinedBy cs: ;
     skos:definition "The address or address component was in use at some stage, but not anymore." ;
+    skos:historyNote "Presented in the original standard's codelist"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "retired"@en ;
     skos:topConceptOf cs: ;
-    skos:historyNote "Presented in the original standard's codelist"@en ;
+    schema:status status:original ;
 .
 
 :unknown
     a skos:Concept ;
-    schema:status status:original ;
     rdfs:isDefinedBy cs: ;
     skos:definition "The lifecycle stage of the address or address component is unknown." ;
+    skos:historyNote "Presented in the original standard's codelist"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "unknown"@en ;
     skos:topConceptOf cs: ;
-    skos:historyNote "Presented in the original standard's codelist"@en ;
+    schema:status status:original ;
 .
 
 cs:
     a skos:ConceptScheme ;
+    rdfs:isDefinedBy <https://def.isotc211.org/common/standard/iso-19160-1-2015> ;
     skos:definition "AddressLifecycleStage represents the different lifecycle stages of an Address or AddressComponent"@en ;
     skos:hasTopConcept
         :current ,
@@ -88,10 +89,9 @@ cs:
     schema:contributor <https://def.isotc211.org/org/ogc> ;
     schema:creator <https://def.isotc211.org/org/tc211> ;
     schema:dateCreated "2015-12-15"^^xsd:date ;
-    schema:dateModified "2025-08-01"^^xsd:date ;
     schema:dateIssued "2025-11-19"^^xsd:date ;
+    schema:dateModified "2025-08-01"^^xsd:date ;
     schema:isPartOf <https://def.isotc211.org/common> ;
     schema:publisher <https://def.isotc211.org/org/tc211> ;
     schema:status status:stable ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/standard/iso-19160-1-2015> ;
 .

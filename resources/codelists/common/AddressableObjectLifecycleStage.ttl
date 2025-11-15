@@ -8,72 +8,73 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :approved
     a skos:Concept ;
-    schema:status status:original ;
     rdfs:isDefinedBy cs: ;
     skos:definition "The establishment or construction of the addressable object has been approved, i.e. the relevant authority has given approval for the establishment or construction of the addressable object." ;
+    skos:historyNote "Presented in the original standard's codelist"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "approved"@en ;
     skos:topConceptOf cs: ;
-    skos:historyNote "Presented in the original standard's codelist"@en ;
+    schema:status status:original ;
 .
 
 :ceasedToExist
     a skos:Concept ;
-    schema:status status:original ;
     rdfs:isDefinedBy cs: ;
     skos:definition "The addressable object does not exist anymore (e.g. it has been demolished)." ;
+    skos:historyNote "Presented in the original standard's codelist"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "ceased to exist"@en ;
     skos:topConceptOf cs: ;
-    skos:historyNote "Presented in the original standard's codelist"@en ;
+    schema:status status:original ;
 .
 
 :exists
     a skos:Concept ;
-    schema:status status:original ;
     rdfs:isDefinedBy cs: ;
     skos:definition "The addressable object exists." ;
+    skos:historyNote "Presented in the original standard's codelist"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "exists"@en ;
     skos:topConceptOf cs: ;
-    skos:historyNote "Presented in the original standard's codelist"@en ;
+    schema:status status:original ;
 .
 
 :proposed
     a skos:Concept ;
-    schema:status status:original ;
     rdfs:isDefinedBy cs: ;
     skos:definition "The establishment or construction of the addressable object has been proposed, i.e. the relevant authority has initiated approval procedures." ;
+    skos:historyNote "Presented in the original standard's codelist"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "proposed"@en ;
     skos:topConceptOf cs: ;
-    skos:historyNote "Presented in the original standard's codelist"@en ;
+    schema:status status:original ;
 .
 
 :underConstruction
     a skos:Concept ;
-    schema:status status:original ;
     rdfs:isDefinedBy cs: ;
     skos:definition "The establishment or construction of the addressable object is in progress." ;
+    skos:historyNote "Presented in the original standard's codelist"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "under construction"@en ;
     skos:topConceptOf cs: ;
-    skos:historyNote "Presented in the original standard's codelist"@en ;
+    schema:status status:original ;
 .
 
 :unknown
     a skos:Concept ;
-    schema:status status:original ;
     rdfs:isDefinedBy cs: ;
     skos:definition "The lifecycle stage of the addressable object is unknown." ;
+    skos:historyNote "Presented in the original standard's codelist"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "unknown"@en ;
     skos:topConceptOf cs: ;
-    skos:historyNote "Presented in the original standard's codelist"@en ;
+    schema:status status:original ;
 .
 
 cs:
     a skos:ConceptScheme ;
+    rdfs:isDefinedBy <https://def.isotc211.org/common/standard/iso-19160-1-2015> ;
     skos:definition "AddressableObjectLifecycleStage represents the different lifecycle stages of an AddressableObject"@en ;
     skos:hasTopConcept
         :approved ,
@@ -88,10 +89,9 @@ cs:
     schema:contributor <https://def.isotc211.org/org/ogc> ;
     schema:creator <https://def.isotc211.org/org/tc211> ;
     schema:dateCreated "2015-12-15"^^xsd:date ;
-    schema:dateModified "2025-08-01"^^xsd:date ;
     schema:dateIssued "2025-11-19"^^xsd:date ;
+    schema:dateModified "2025-08-01"^^xsd:date ;
     schema:isPartOf <https://def.isotc211.org/common> ;
     schema:publisher <https://def.isotc211.org/org/tc211> ;
     schema:status status:stable ;
-    rdfs:isDefinedBy <https://def.isotc211.org/common/standard/iso-19160-1-2015> ;
 .
