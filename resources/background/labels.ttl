@@ -203,3 +203,14 @@ schema:url
     schema:name "url" ;
 .
 
+<http://purl.org/dc/terms/isReplacedBy>
+    schema:name "is replaced by" ;
+.
+
+<http://purl.org/dc/terms/replaces>
+    schema:name "replaces" ;
+.
+
+<http://www.w3.org/ns/prov#wasDerivedFrom>
+    schema:name "was derived from" ;
+.
