@@ -1,5 +1,6 @@
 PREFIX : <https://def.isotc211.org/common/AddressComponentValueType/>
 PREFIX cs: <https://def.isotc211.org/common/AddressComponentValueType>
+PREFIX prov: <http://www.w3.org/ns/prov#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX schema: <https://schema.org/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -81,4 +82,5 @@ cs:
     schema:isPartOf <https://def.isotc211.org/common> ;
     schema:publisher <https://def.isotc211.org/org/tc211> ;
     schema:status status:stable ;
+    prov:wasDerivedFrom <https://def.isotc211.org/common/standard/iso-19160-1-2015> ;
 .

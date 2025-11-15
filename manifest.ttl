@@ -21,7 +21,7 @@ PREFIX schema: <https://schema.org/>
             dcterms:conformsTo "validator-vocpub-iso.ttl" ;
         ] ,
         [
-            prof:hasArtifact "source/19115codesets/ttl4/*.ttl" ;
+            prof:hasArtifact "source/19115codesets/ttl/*.ttl" ;
             prof:hasRole mrr:ResourceData ;
             schema:description "skos:ConceptScheme objects in RDF (Turtle) files in the vocabs/ folder" ;
             schema:name "Resource Data" ;

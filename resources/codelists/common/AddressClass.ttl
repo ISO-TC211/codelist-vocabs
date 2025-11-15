@@ -1,5 +1,6 @@
 PREFIX : <https://def.isotc211.org/common/AddressClass/>
 PREFIX cs: <https://def.isotc211.org/common/AddressClass>
+PREFIX prov: <http://www.w3.org/ns/prov#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX schema: <https://schema.org/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -23,6 +24,7 @@ cs:
     schema:status status:stable ;
     skos:hasTopConcept
         :placeholder ;
+    prov:wasDerivedFrom <https://def.isotc211.org/common/standard/iso-19160-1-2015> ;
 .
 
 :placeholder
