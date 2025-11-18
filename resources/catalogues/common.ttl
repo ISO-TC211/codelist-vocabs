@@ -29,6 +29,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <https://def.isotc211.org/common/DateTypeCode> ,
         <https://def.isotc211.org/common/DimensionNameTypeCode> ,
         <https://def.isotc211.org/common/EvaluationMethodTypeCode> ,
+        <https://def.isotc211.org/common/FormulaLanguage> ,
         <https://def.isotc211.org/common/GeometricObjectTypeCode> ,
         <https://def.isotc211.org/common/ImagingConditionCode> ,
         <https://def.isotc211.org/common/InitiativeTypeCode> ,
