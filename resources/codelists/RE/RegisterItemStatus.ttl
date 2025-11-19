@@ -55,7 +55,7 @@ status:superseded
 status:addition
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader status:valid ;
+    skos:broader status:stable ;
     skos:definition "The item is valid and was supplied to the vocabulary after initial creation"@en ;
     skos:historyNote "Added to this codelist by GOM, 2022"@en ;
     skos:inScheme cs: ;
@@ -99,7 +99,7 @@ status:invalid
 status:original
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader status:valid ;
+    skos:broader status:stable ;
     skos:definition "Supplied within the original issuance of the vocabulary"@en ;
     skos:historyNote "Added to this codelist by GOM, 2022"@en ;
     skos:inScheme cs: ;

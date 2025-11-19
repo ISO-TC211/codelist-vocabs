@@ -1,5 +1,5 @@
-PREFIX : <https://def.isotc211.org/common/standard/>
-PREFIX cs: <https://def.isotc211.org/common/standard>
+PREFIX : <https://def.isotc211.org/common/standards/>
+PREFIX cs: <https://def.isotc211.org/common/standards>
 PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX schema: <https://schema.org/>

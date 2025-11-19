@@ -43,13 +43,13 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 cs:
     a skos:ConceptScheme ;
     rdfs:isDefinedBy <https://def.isotc211.org/common/standard/iso-19157-1-2023> ;
-    skos:definition "The structure of values in a dataset"@en ;
+    skos:definition "The data language use for mathematical formula expression"@en ;
     skos:hasTopConcept
         :mathjson ,
         :mathml ,
         :openmath;
     skos:historyNote """2025-11: implemented directly by GOM from the UML"""@en ;
-    skos:prefLabel "Value Structure Code"@en ;
+    skos:prefLabel "Formula Language"@en ;
     schema:citation "http://standards.iso.org/iso/19157/-1/ed-1/en/"^^xsd:anyURI ;
     schema:creator <https://def.isotc211.org/org/tc211> ;
     schema:dateCreated "2025-11-18"^^xsd:date ;
